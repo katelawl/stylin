@@ -11,6 +11,13 @@
 	box-sizing: border-box;
 }
 
+/* clearfix paul irish */
+.clearfix:after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
 /*global styles */
 .centerme{
 	text-align: center;
