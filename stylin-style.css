@@ -1,0 +1,64 @@
+/* universal styles */
+
+/* css reset */
+*,
+*:before,
+*:after {
+	margin:0;
+	padding: 0;
+}
+
+/*global styles */
+.centerme{
+	text-align: center;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.hide {
+	display: none;
+}
+
+/*page styles */
+.home {
+	background: rgba(0, 110, 255, 0.82);
+	font-family:sans-serif;
+	font-size:62.5%;
+}
+
+.container {
+	width:960px;
+	margin: 0 auto;
+
+}
+
+
+h2, p, li {
+	margin-bottom: 10px;
+}
+
+p{
+	font-size:1.4em;
+}
+h1{
+	font-size:1.9em;
+}
+
+.box{
+    	background: rgba(255,255,255,0.65);
+    	border: 1px solid rgba(0,0,0,0.5);
+    	padding: 5px 10px;
+    	margin-bottom: 15px;
+
+
+    } 
+.twocollumn {
+	width:458%;
+
+}
